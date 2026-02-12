@@ -1,4 +1,4 @@
-// Game 1
+// Game win, lose, or draw - all cases
 const compChoices = ["rock", "paper", "scissors"];
 
 const processArr = process.argv;
