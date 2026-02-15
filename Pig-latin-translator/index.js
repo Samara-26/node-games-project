@@ -3,19 +3,19 @@ const processArr = process.argv;
 // console.log(processArr);
 
 const userInput = processArr.slice(2);
-console.log(userInput);
+// console.log(userInput);
 if (userInput.length !== 1) {
     console.log("Please give a one sentense within \"\" ");
     return;
 }
 
 const joinedStr = userInput.join();
-console.log(joinedStr);
+// console.log(joinedStr);
 let pigLatin = "";
 const vowels = "aeiou";
 
 const splitedArr = joinedStr.split(" ");
-console.log(splitedArr);
+// console.log(splitedArr);
 const pigLatinTranslator = splitedArr.forEach((element) => {
     const current = element.trim().toLowerCase();
     if (vowels.includes(current[0])) {
